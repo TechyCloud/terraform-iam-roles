@@ -9,7 +9,7 @@ The Terraform code will create the IAM roles to use the AWS services as per your
 
 ## Usage
 
-You can download terraform code [here](https://github.com/TechyCloud/terraform-iam-roles.git) to create the IAM role.
+You can download terraform code [here](https://github.com/TechyCloud/terraform-iam-roles/archive/main.zip) to create the IAM role.
 
 After downloading the code, you can update the below variables in **main.tf** file in **tf_roles** directory. In the variable part you must be update the Service Name & Policy ARN as per your requirement. For example, If you want to attache this role to EC2 instance you should to choose the service name as like below,
 
